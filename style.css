@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}html,body{
+   height: 100%;
+   width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+#nav{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100vw;
+    /* background-color: rgb(164, 184, 201); */
+    padding: 0 50px;
+}
+#logo{
+    position: relative;
+    top: 25px;
+}
+#navcon{
+    display: flex;
+    gap: 20px;
+}#navcon>a{
+    font-size: 25px;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    color: black;
+    font-weight: 500;
+    font-family: "Orbitron";
+}
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}#search>button{
+    height: 45px;
+    width: 170px;
+    border-radius: 10px;
+    background-color: #fff;
+}#search>i{
+    font-size: 35px;
+    font-weight: 100;
+}
+.page1{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+}
+.part1{
+    overflow: hidden;
+    height: 100vh;
+    width: 40vw;
+}
+.part2{
+    height: 100vh;
+    width: 60vw;
+}
+.page1 img:nth-child(1){
+    height: 53vh;
+    position: relative;
+    top: 42vh;
+    left: 14vw;
+}
+.page1 img:nth-child(2){
+    width: 20vw;
+    position: relative;
+    height: 75vh;
+    width: 27vw;
+    left: 6vw;
+    bottom: 43vh;
+}
+.stext{
+    width: 38vw;
+    position: relative;
+    left: 10vw;
+    top: 20vh;
+    
+
+}
+.stext p{
+    text-align: center;
+    font-family: "Gilroy";
+    font-weight: 100;
+    font-size: 15px;
+    opacity: .6;
+}
+.part2 h1{
+    font-family: "Orbitron";
+    font-size: 55px;
+    text-align: center;
+    position: relative;
+    top: 14vh;
+}
+.part2 img:nth-child(3){
+    position: relative;
+    top: -32vh;
+    left: 14vw;
+    height: 10vh;
+
+}
+.part2 img:nth-child(4){
+    position: relative;
+    top: -29vh;
+    left: 45vw;
+    height: 8vh;
+}
